@@ -123,9 +123,8 @@ public class InteractiveOrderProcessor {
         System.out.println("String 1 .equals() String 2: " + firstString.equals(secondString));
         System.out.println("String 1 .equalsIgnoreCase() String 2: " + firstString.equalsIgnoreCase(secondString));
 
-        System.out.println();
         System.out.println("'==' compares object references which are different for user input strings.");
-        System.out.println("'.equals()' compares string content and is case-sensitive.");
+        System.out.println("'.equals()' compares string content and is case-sensitive making it more ideal for accurate string comparison.");
         System.out.println("'.equalsIgnoreCase()' compares content while ignoring case differences.");
     }
 }
